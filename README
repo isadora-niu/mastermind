@@ -20,3 +20,17 @@ Remarque: le jeu fonctionne actuellement avec des digits, il ne faudrait que que
 modifications pour qu'il fonctionne avec des couleurs comme le jeu original( création d'une
 ENUM couleur, adaptation de l'userSide et du générator, modification du codeElement en abstract
 avec une factory), le coeur du jeu ne serait pas à revoir.
+
+Requirement
+Java 11 + or GraalVM 11 +
+Maven 3.5 +
+
+Packaging and installation
+Use maven for packaging executable jar :
+
+mvn clean install
+
+Running
+running the jar file
+
+java -jar ./target/mastermind-1.0-SNAPSHOT.jar
